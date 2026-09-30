@@ -89,6 +89,8 @@ YOLOv8n, 50 epoch, batch 16, imgsz 640, AdamW (Google Colab T4 GPU).
 
 `stop_sign_dataset` üzerinde (conf=0.25, IoU=0.45): 5 görüntünün 5'inde STOP tabelası tespit edildi.
 
-![Test 1](results/predictions/DOSYA_ADI_1.jpg)
-![Test 2](results/predictions/DOSYA_ADI_2.jpg)
-![Test 3](results/predictions/DOSYA_ADI_3.jpg)
+![Test 1](results/predictions/photo-1558626219-fa0c107b5613.jpg)
+![Test 2](results/predictions/photo-1518749031467-bb37f48aee10.jpg)
+![Test 3](results/predictions/photo-1635481585588-2440d43b6747.jpg)
+![Test 4](results/predictions/photo-1727156275339-aad186798856.jpg)
+![Test 5](results/predictions/premium_photo-1731192705955-f10a8e7174d2.jpg)
