@@ -1,6 +1,5 @@
 # Stop Sign Deep Learning
 
-YOLOv8 (Ultralytics) ile STOP tabelası tespiti. Yıldız Rover Destek Ekip - Ödev 3.
 
 ## Klasör Yapısı
 
