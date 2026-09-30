@@ -1,6 +1,5 @@
 # Stop Sign Deep Learning
 
-YOLOv8 (Ultralytics) ile STOP tabelası tespiti. Yıldız Rover Destek Ekip - Ödev 3.
 
 ## Klasör Yapısı
 
@@ -35,11 +34,11 @@ pip install -r requirements.txt
    train: train/images
    val: valid/images
    ```
-3. Ödevle paylaşılan `stop_sign_dataset` klasörünü `datasets/stop_sign_dataset/` olarak koy.
+3. `stop_sign_dataset` klasörünü `datasets/stop_sign_dataset/` olarak koy.
 
 ## Kullanım
 
-E�itim:
+Eğitim:
 ```bash
 python train.py
 # örnek: python train.py --epochs 100 --batch 8 --imgsz 640 --optimizer SGD
