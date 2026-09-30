@@ -1,9 +1,4 @@
-"""Eğitilmiş modeli stop_sign_dataset (test seti) üzerinde çalıştırır.
 
-Kullanım:
-    python test.py
-    python test.py --source datasets/stop_sign_dataset --conf 0.25
-"""
 import argparse
 from pathlib import Path
 
@@ -29,7 +24,6 @@ def main():
     args = parse_args()
     model = YOLO(args.weights)
 
-    # Sonuç görselleri results/predictions altına kaydedilir (repoya eklenecek)
     results = model.predict(
         source=args.source,
         conf=args.conf,

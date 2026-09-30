@@ -1,12 +1,4 @@
-"""Roboflow'dan veri setini indirir (isteğe bağlı; elle de indirebilirsin).
 
-Kullanım:
-    export ROBOFLOW_API_KEY="anahtarin"      # Windows: set ROBOFLOW_API_KEY=anahtarin
-    python download_dataset.py --version 1
-
-Workspace / project / version değerlerini Roboflow sayfasındaki
-"Download Dataset" -> "YOLOv8" kod parçasından kontrol et.
-"""
 import argparse
 import os
 

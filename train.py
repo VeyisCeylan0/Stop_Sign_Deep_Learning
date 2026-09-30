@@ -1,9 +1,4 @@
-"""STOP tabelası tespiti için YOLOv8 eğitim scripti.
 
-Kullanım:
-    python train.py
-    python train.py --data datasets/stop_sign/data.yaml --epochs 50 --batch 16
-"""
 import argparse
 
 from ultralytics import YOLO
