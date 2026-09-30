@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+venv/
+.env
+# Büyük veri setleri repoya eklenmez
+datasets/
+# Ağırlıklar: sadece best.pt'yi istersen elle ekle
+*.pt
+!runs/train/weights/best.pt
