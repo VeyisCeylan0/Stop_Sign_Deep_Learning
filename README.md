@@ -11,7 +11,7 @@ Stop_Sign_Deep_Learning/
 ├── requirements.txt
 ├── datasets/
 │   ├── stop_sign/         # Roboflow export (data.yaml, train/, valid/)
-│   └── stop_sign_dataset/ # test görüntüleri (ödevle paylaşılan)
+│   └── stop_sign_dataset/ # test görüntüleri 
 ├── runs/train/            # eğitim çıktıları (grafikler, weights/best.pt)
 └── results/predictions/   # test sonuç görselleri
 ```
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ## Veri Seti
 
 1. [Roboflow Universe - Stop Sign](https://universe.roboflow.com/sign-detection-h24ey/stop-sign-h0vwm) sayfasından **YOLOv8** formatında indir ve `datasets/stop_sign/` içine çıkar. (veya `python download_dataset.py`)
-2. `datasets/stop_sign/data.yaml` içinde yolların doğru olduğundan emin ol:
+2. `datasets/stop_sign/data.yaml` 
    ```yaml
    train: train/images
    val: valid/images
